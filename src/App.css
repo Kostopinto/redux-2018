@@ -30,3 +30,17 @@
     transform: rotate(360deg);
   }
 }
+
+.listItem {
+  list-style-type: none;
+  display: block;
+
+  width: 400px;
+}
+
+.itemArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
